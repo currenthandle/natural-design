@@ -1,0 +1,55 @@
+.nav-bar{
+    border: solid black 5px;
+    background: white; 
+    
+}
+.nav-bar li{
+    margin-left: 20px;
+    display:block;
+}
+.nav-bar li a{
+    color: orange;
+}
+carousel{  
+    height: 100%;   
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+
+
+.grid{
+    width: 100px;
+}
+
+.gallery    {
+    display: inline;   
+    
+}
+.car{
+    display: block;
+}   
+
+nav{
+    display:block;
+}
+.break{
+    width = 5px;
+    background-color: red;
+    
+}
+.repeater{
+    display: inline;   
+    margin: 10px;
+    
+}
+.gallery {
+    display: inline;
+}
+.gallery img{
+    margin:10px;
+    border: black solid 5px;
+}
+body {
+     background: grey;
+}

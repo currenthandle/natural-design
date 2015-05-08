@@ -1,13 +1,22 @@
 <div ng-controller="GemWoodController" id="slides_control">
-    <div>
-        hello
-      <carousel interval="myInterval">
-        <slide ng-repeat="slide in slides" active="slide.active">
-          <img ng-src="{{slide.image}}">
-          <div class="carousel-caption">
-            <h4>Slide {{$index+1}}</h4>
-          </div>
-        </slide>
-      </carousel>
+    <div class="car row" >
+        <carousel interval="myInterval" class="col-md-7 col-md-offset-3" data-markers-show='false'>
+            <slide ng-repeat="slide in slides" active="slideActive[$index]" >
+                <img class="img-responsive center-block" ng-src="{{slide.image}}">
+               <!--
+                <div class="carousel-caption">
+                    <h4>Slide {{$index+1}}</h4>
+                </div>
+                -->
+            </slide>
+        </carousel>
     </div>
-  </div>
+
+    
+    <div class="gallery row">
+        <div class="repeater" ng-repeat="slide in slides">
+            <img class="grid" ng-src="{{slide.image}}" ng-click="seceltor($index)">
+        </div>
+    </div>
+    
+</div>
