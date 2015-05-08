@@ -1,3 +1,20 @@
+header{
+    background: black;  
+    height: 280px;
+    padding-top: 45px;
+}
+header h1{
+    color: #BA9500;
+    font-size: 170px;
+    font-family: Arial, "Times New Roman", Times, serif;
+}
+header h2{
+    color: #FF5050;
+    font-size: 110%;
+}
+.main{
+    background: white;
+}
 .nav-bar{
     border: solid black 5px;
     background: white; 
@@ -14,17 +31,22 @@ carousel{
     height: 100%;   
     width: 100%;
     margin-bottom: 0px;
+
 }
-
-
+.artist img{
+    display:block;
+    margin:auto;   
+}
 
 .grid{
     width: 100px;
 }
 
 .gallery    {
-    display: inline;   
-    
+    display: inline;
+    width: 50%;
+    margin: 0 auto;
+    width: 50%; 
 }
 .car{
     display: block;
@@ -42,6 +64,7 @@ nav{
     display: inline;   
     margin: 10px;
     
+    
 }
 .gallery {
     display: inline;
@@ -51,5 +74,13 @@ nav{
     border: black solid 5px;
 }
 body {
-     background: grey;
+    background: url(../img/background.jpg) grey;    
+    background-size: 100%;
+
+}
+.contact{
+    color: black;     
+}
+.title{
+    font-size: 400%;   
 }
